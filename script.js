@@ -17,7 +17,7 @@ while (true) {
             if (filesystem.includes(input[1])) {
                 if (filesystem.indexOf(input[1]) == 0) {
                     let pass = await shell.input("Please Enter a Password: ")
-                    if (pass == "hi") {
+                    if (pass == "q*CV9pzbdhjs") {
                         shell.print(filesystemData[0])
                     } else {
                         shell.print("Incorrect Password")
